@@ -1,0 +1,124 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box{
+    display: flex;
+    /* align-items: center; */
+    border-radius: 15px;
+    width: 80%;
+    height: 80%;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box .smallbox{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box #smallbox1{
+    background: rgba(148, 22, 179, 0.852);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    color: white;
+}
+
+#smallbox1 p{
+    margin-top: 30px;
+    width: 80%;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#smallbox1 button{
+    margin-top: 30px;
+    padding: 12px 40px;
+    border: none;
+    background: rgba(218, 134, 246, 0.579); 
+    color: #fff;
+    font-size: 17px;
+    border-radius: 29px;
+    transition: all .5s ease;
+    box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.3);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#smallbox1 button:hover{
+    box-shadow: 0px 1px 25px rgb(252, 254, 254);
+    transform: scale(1.03);
+    border: 1px solid #fff;
+}
+
+.box #smallbox2{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#smallbox2 h1{
+    margin-bottom: 14px;
+    color: rgba(148, 22, 179, 0.852);
+}
+
+.box #smallbox2 .media-buttons{
+    margin-top: 30px;
+}
+
+.media-buttons img{
+    border-radius: 16px;
+}
+
+#smallbox2 p{
+    margin: 27px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 18px;
+}
+    
+#smallbox2 input{
+    padding: 5px 20px ;
+    width: 35vw;
+    height: 6vh;
+    margin: 10px 0px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+}
+
+#smallbox2 button{   
+    margin-top: 30px;
+    padding: 12px 40px;
+    border-radius: 29px;
+    border: none;
+    font-weight: 500;
+    transition: all .4s ease;
+    font-size: 16px;
+    background: rgba(148, 22, 179, 0.852);
+    color: #fff;
+    cursor: pointer;
+}
+
+#smallbox2 button:hover{
+    border: 2px solid rgba(148, 22, 179, 0.852);
+    color: rgba(148, 22, 179, 0.852);
+    background: transparent;
+    transform: scale(1.01);
+}
